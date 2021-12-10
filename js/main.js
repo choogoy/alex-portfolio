@@ -11,8 +11,8 @@ $(function() {
         arrows: true,
         infinite: true,
         speed: 300,
-        prevArrow: '<button type="button" class="slick-prev"><img src="/img/arrow-left.svg" alt="prev"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="/img/arrow-right.svg" alt="next"></button>',
+        prevArrow: '<button type="button" class="slick-prev"><img src="./img/arrow-left.svg" alt="prev"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="./img/arrow-right.svg" alt="next"></button>',
     });
 
     $('a').on('click', function() {
