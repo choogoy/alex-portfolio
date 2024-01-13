@@ -98,7 +98,7 @@ const popupLink = document.querySelector('.popup-link'),
     btnClose = document.querySelector('.btn-close'),
     footerCopy = document.querySelector('.footer__copy');
 
-footerCopy.textContent = `© ${new Date().getFullYear()}. Все права защищены`;
+footerCopy.textContent = `⛑ © ${new Date().getFullYear()}`;
 
 const togglePopup = () => {
     contactsPersonal.classList.toggle('hide');
